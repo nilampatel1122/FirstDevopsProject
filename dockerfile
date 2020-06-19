@@ -6,7 +6,7 @@ WORKDIR /usr/apps/hello-docker/
 
 RUN apt-get -y update
 
-RUN apt-get install -y nodejs
+RUN apt-get install -y java-openjdk-1.8.0
 
 RUN apt-get install -y npm
 
