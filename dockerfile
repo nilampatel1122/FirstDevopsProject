@@ -10,7 +10,7 @@ RUN apt-get install -y nodejs
 
 RUN apt-get install -y npm
 
-RUN npl install -g http-server
+RUN npm install -g http-server
 
 ADD . /usr/apps/hello-docker
 
