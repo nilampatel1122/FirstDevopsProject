@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-MAINTAINER nilampatel1122
+MAINTAINER nilamdevops
 
 WORKDIR /usr/apps/hello-docker/
 
@@ -13,6 +13,5 @@ RUN apt-get install -y npm
 RUN npm install -g http-server
 
 ADD . /usr/apps/hello-docker
-
 
 CMD ["http-server","-s"]
