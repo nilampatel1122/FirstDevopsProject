@@ -12,6 +12,8 @@ RUN apt-get install -y npm
 
 RUN npm install -g http-server
 
+Run docker login -u nilamdevops -p Lvurahul1
+
 ADD . /usr/apps/hello-docker
 
 CMD ["http-server","-s"]
